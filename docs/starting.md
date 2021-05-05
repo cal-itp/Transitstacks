@@ -36,8 +36,8 @@ If you are going to be working on Lasso locally, you might want to clone it to y
 conda config --add channels conda-forge
 conda create python=3.7 -n <my_conda_environment>
 conda activate <my_lasso_environment>
-git clone https://github.com/e-lo/packagename
-cd packagename
+git clone https://github.com/e-lo/transitstacks
+cd transitstacks
 pip install -e .
 ```
 

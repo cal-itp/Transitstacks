@@ -42,7 +42,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 *.log
 # except logs in the example
-!examples/**/*.log
+examples/prototype/*
 
 #temp files
 tests/scratch/*
@@ -71,6 +71,9 @@ coverage.xml
 # Translations
 *.mo
 *.pot
+
+# mkdocs documentation
+site
 
 # Sphinx documentation
 docs/_build/

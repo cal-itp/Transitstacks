@@ -1,0 +1,13 @@
+site_name: TransitStacks
+nav:
+    - Home: index.md
+    - Getting started: starting.md
+    - Usage: usage.md
+    - API: api.md
+    - Development:
+      - Documentation: documentation.md
+      - Testing: testing.md
+theme: material
+plugins:
+- search
+- mkdocstrings

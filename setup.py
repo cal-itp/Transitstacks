@@ -30,15 +30,13 @@ if major_version_number < 1:
   install_requires = install_requires + install_requires_dev
 
 setup(
-    name="packagename",
+    name="transitstacks",
     version=version,
     description="",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="EDITME",
-    license="Apache 2",
     platforms="any",
-    packages=["packagename"],
+    packages=["transitstacks"],
     include_package_data=True,
     install_requires=install_requires,
 )
