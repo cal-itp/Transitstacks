@@ -24,16 +24,21 @@ edge_style_lookup = {
 }
 
 
-def define_edge(edge: Union[Mapping, pd.Series]) -> Edge:
+def define_edge(
+    edge: Union[Mapping, pd.Series],
+    ignore_values=["Intra-product", "nan", "TO CONFIRM", "Human translation"],
+) -> Edge:
     """[summary]
 
     Args:
         edge (Union[Mapping,pd.Series]): [description]
-
+        ignore_values: list of values to not print in labels
     Returns:
         Edge: [description]
     """
-    edge_label = f"{edge.get('Mechanism','')} : {edge.get('Standard','')}"
+    _mech_str = "" if (str(edge.Mechanism) in ignore_values) else f"{edge.Mechanism}"
+    _std_str = "" if (str(edge.Standard) in ignore_values) else f"{edge.Standard}"
+    edge_label = ":".join([_mech_str, _std_str])
 
     edge_color = default_edge_color
     for (field, value), color in edge_color_lookup.items():
