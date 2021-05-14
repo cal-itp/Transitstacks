@@ -4,9 +4,7 @@ nav:
     - Getting started: starting.md
     - Usage: usage.md
     - API: api.md
-    - Development:
-      - Documentation: documentation.md
-      - Testing: testing.md
+    - Development: developing.md
 theme: material
 plugins:
 - search

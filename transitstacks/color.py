@@ -84,15 +84,15 @@ def show_ramp(hex_list):
     """
     import matplotlib.pyplot as plt
     from matplotlib.colors import to_rgba_array
-    import math.floor, math.sqrt
+    import math
 
     # find closest square for n numbers
     n = len(hex_list)
-    _width = floor(sqrt(n))
+    _width = math.floor(math.sqrt(n))
     while n % _width > 0:
         _width -= 1
     _height = n / _width
 
-    plt.imshow(to_rgba_array(ramp).reshape(_height, _width, 4))
+    plt.imshow(to_rgba_array(hex_list).reshape(_height, _width, 4))
     plt.show()
     return
