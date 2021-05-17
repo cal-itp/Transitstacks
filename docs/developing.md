@@ -92,6 +92,14 @@ pytest -s
 pytest -v -m "not skipci"
 ```
 
+## Continuous Integration
+
+Transitstacks uses Github workflows to run tests for each push to the repository as configured in `.github/workflows`
+
+### Troubleshooting Github Actions
+
+Sometimes it is useful to trubleshoot github actions locally. The easiest way to do that is to install [`act`](https://github.com/nektos/act) (e.g. `brew install act` on Mac OS) and run it from the command line from the base transit stacks repository using the straightforward command: `act`. 
+
 ## Documentation
 Docstrings are written in [google style](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) and auto-rendered as api documentation using [mkdocstrings](https://mkdocstrings.github.io/) as specified in `/docs/api.md`. 
 

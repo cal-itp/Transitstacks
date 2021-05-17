@@ -3,7 +3,7 @@ include README.md
 include requirements.txt
 include dev-requirements.txt
 
-recursive-include transitstacks/icons
+recursive-include transitstacks/icons *
 recursive-include examples *
 recursive-include tests *
 
