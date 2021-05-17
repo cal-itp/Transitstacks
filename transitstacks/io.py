@@ -47,7 +47,7 @@ def read_stack_from_gsheets(
 
     df_dict = {}
     for sheet_name, sheet_gid in stack_sheets.items():
-        url = f"https://docs.google.com/spreadsheets/d/{sheet_key}/export?gid={sheet_gid}&format=csv"
+        url = f"https://docs.google.com/spreadsheets/d/{sheet_key}/export?gid={sheet_gid}&format=csv"  # noqa: E501
         _df = pd.read_csv(url, skiprows=1)
         if filter_dict:
             _df = _filter_df(_df, filter_dict)
