@@ -79,7 +79,7 @@ site
 docs/_build/
 docs/_generated/*
 
-# Jupyter 
+# Jupyter
 .ipynb_checkpoints
 profile_default/
 ipython_config.py
