@@ -2,7 +2,7 @@
 
 Basic tools for downloading and viewing the [Cal-ITP](http://calitp.org) transit technology stack database.
 
-![](/docs/stack_diagram_-_functional_view.png)
+![Example stack diagram](/docs/stack_diagram_-_functional_view.png)
 
 ## Installation
 
@@ -26,7 +26,8 @@ my_stack.components_df.products
 my_stack.components_df['products'].value_counts().sort_values(as‌​cending=False)
 ```
 
-You can use the Jupyter Notebook `/notebooks/Stack Database Analysis.ipynb` for interactive viewing of dataframes by using the command `jupyter notebook`. 
+You can use the Jupyter Notebook `/notebooks/Stack Database Analysis.ipynb` for interactive viewing of dataframes by using the
+command `jupyter notebook`.
 
 ### Browse relationships in Single Transit Stack
 
@@ -51,15 +52,16 @@ d = ts.stack_diagram(
     cluster_level_2 = LEVEL2,
     bgcolor_cluster_L1 = ts.stack.greenyellow_functiongroup_map,
 )
-
 ```
 
-You can use the Jupyter Notebook `/notebooks/Individual Transit Provider Analysis.ipynb` for interactive transit stack diagram generation by using the command `jupyter notebook`. 
+You can use the Jupyter Notebook `/notebooks/Individual Transit Provider Analysis.ipynb` for interactive transit stack diagram
+generation by using the command `jupyter notebook`.
 
 ## Contributing
 
-General steps: 
-1. Fork it (https://github.com/e-lo/Transitstacks/fork)
+General steps:
+
+1. Fork it (<https://github.com/e-lo/Transitstacks/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Add your feature, add tests which test your feature, document your feature, and pass all tests.
 4. Commit your changes (`git commit -am 'Add some fooBar'`)
@@ -71,13 +73,14 @@ Development requirements are listed in `dev-requirements.txt` and can be install
 
 Tests are written for `pytest` and can be run using the command `pytest`.
 
-Docstrings are written in [google style](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) and auto-rendered as api documentation using [mkdocstrings](https://mkdocstrings.github.io/) as specified in `/docs/api.md`. 
+Docstrings are written in [google style](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) and
+auto-rendered as api documentation using [mkdocstrings](https://mkdocstrings.github.io/) as specified in `/docs/api.md`.
 
-Documentation uses [mkdocs](https://www.mkdocs.org/) and is in the `/docs` folder.  It can be rendered locally using the command `mkdocs serve`. 
-
+Documentation uses [mkdocs](https://www.mkdocs.org/) and is in the `/docs` folder.
+It can be rendered locally using the command `mkdocs serve`.
 
 ## Licenses
 
-- Code is offered as [AGPL 3.0](LICENSE) and developed on behalf of the [California Integrated Travel Project](http://calitp.org).  
-- Data is offered as [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) and developed on behalf of the [California Integrated Travel Project](http://calitp.org). 
-
+* Code is offered as [AGPL 3.0](LICENSE) and developed on behalf of the [California Integrated Travel Project](http://calitp.org).
+* Data is offered as [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) and developed on behalf of the
+  [California Integrated Travel Project](http://calitp.org).
