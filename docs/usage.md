@@ -43,12 +43,15 @@ d = ts.stack_diagram(
 
 ## Leveraging Jupyter Notebooks
 
-Interactive dataframes in Jupyter Notebooks make it easier to explore the data in an ad-hoc manner.  Please refer to the following jupyter notebooks in the `/notebooks` directory as starting points:
+Interactive dataframes in Jupyter Notebooks make it easier to explore the data in an ad-hoc manner. Please refer to the
+following jupyter notebooks in the `/notebooks` directory as starting points:
 
 - `Stack Database Analysis.ipynb`
 - `Individual Transit Provider Analysis.ipynb`
 
- Jupyter notebooks can be started by activating the lasso conda environment and typing `jupyter notebook`:
+Jupyter notebooks can be started by activating the lasso conda environment and typing `jupyter notebook`:
 
- `conda activate <my_conda_environment>`   
- `jupyter notebook`  
+```bash
+conda activate <my_conda_environment>
+jupyter notebook
+```
