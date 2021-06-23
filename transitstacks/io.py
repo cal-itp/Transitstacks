@@ -136,7 +136,7 @@ def example_dir(example_name: str):
 
     if not os.path.exists(example_dir):
         available_examples = [
-            name for name in os.listdir(example_dir) if os.path.isdir(name)
+            name for name in os.listdir(main_example_dir) if os.path.isdir(name)
         ]
         ex_str = "\n - ".join(available_examples)
         msg = f"{example_name} not an available example. \
