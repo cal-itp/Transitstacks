@@ -41,8 +41,6 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 *.log
-# except logs in the example
-examples/prototype/*
 
 #temp files
 tests/scratch/*
