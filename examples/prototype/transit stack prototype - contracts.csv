@@ -1,7 +1,5 @@
-"Key is Contract ID and data updated. Data can be updated by appending, so select max(data updated)",,,,,,,,
-
 Contract ID | Data updated,Contract ID,Data updated,Organization,Vendor,End date,Maintenance End Date,Renewal option,Title
- 
+
 GET Bus 1|2021-04-01,GET Bus 1,4/1/2021,GET Bus,Token Transit,,,,
 GET Bus 2|2021-04-01,GET Bus 2,4/1/2021,GET Bus,Genfare,,,,
 GET Bus 3|2021-04-01,GET Bus 3,4/1/2021,GET Bus,UTA,,,,

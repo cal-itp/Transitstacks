@@ -1,5 +1,3 @@
-"Specifyng the relationships between components and what data standard and mechnaisms are used.
-AKA the ""arrows"" in a stack diagram.Keyed on Component A, Component B, Data Standard, Mechanim",,,,,,,,
 Transit Provider,absm_id,Component A,Component B,Standard,Mechanism,Information ,Parallel Model,Centralized Model
 GET Bus,Scheduling|GTFS generation|Human translation|Human painful by hand,Scheduling,GTFS generation,Human translation,Human painful by hand,,0,0
 GET Bus,GTFS generation|AVL Software|GTFS Schedule|TO CONFIRM,GTFS generation,AVL Software,GTFS Schedule,TO CONFIRM,,0,0

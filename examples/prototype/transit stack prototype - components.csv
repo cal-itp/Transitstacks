@@ -1,5 +1,3 @@
-"Key: pcc_id, a concatenation of Product, Component, and Contract ID. 
-A many-to-one relationship with contracts using the foreign key: Contract ID",,,,,,,,,
 pcc_id,Product,Component,Contract ID,Transit Provider,Vendor,~Capital Service Entry Date,~Capital EOL Date,Notes,Version
 Token Transit Mobile Ticketing|Mobile ticketing|Token Transit|GET Bus 1,Token Transit Mobile Ticketing,Mobile ticketing,GET Bus 1,GET Bus,Token Transit,,,,
 TO CONFIRM|Farebox|Genfare|GET Bus 2,TO CONFIRM,Farebox,GET Bus 2,GET Bus,Genfare,,,,

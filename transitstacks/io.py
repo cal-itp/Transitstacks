@@ -94,7 +94,7 @@ def read_stack_from_dir(
 
     df_dict = {}
     for f in glob.glob(os.path.join(directory, "*.csv")):
-        _df = pd.read_csv(f, skiprows=1)
+        _df = pd.read_csv(f, skiprows=0)
         if filter_dict:
             _df = _filter_df(_df, filter_dict)
         df_dict[_get_sheetname(f)] = _df

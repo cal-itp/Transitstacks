@@ -1,5 +1,3 @@
-"List of important directional relationships between components, the data which should be transmitted, and the standard.
-Key is (Component A, Component B, Standard, Mechanism)",,,,,,,,
 Component A,Component B,Information ,Standard,Mechanism,absm_id,Centralized Vehicle Model,Parallel Vehicle Model,Direction
 Scheduling,GTFS generation,,,,Scheduling|GTFS generation||,,TRUE,
 Scheduling,Run cutting,,,,Scheduling|Run cutting||,,TRUE,

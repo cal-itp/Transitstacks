@@ -1,5 +1,3 @@
-"An list of products and the components they cover. 
-When possible, versions or sub-products should be specified to be as precise as possible about capabilities. ",
 Product,Component
 Worldpay,Payment processor
 Token Transit Mobile Ticketing,Mobile ticketing
